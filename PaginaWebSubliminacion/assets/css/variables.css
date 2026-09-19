@@ -1,0 +1,35 @@
+:root {
+  --color-ivory: #FAF7F2;
+  --color-charcoal: #2B2823;
+  --color-terracotta: #C1694F;
+  --color-sage: #7A8B6F;
+  --color-stone: #E8E1D6;
+  --color-gold: #B08D57;
+
+  --font-heading: "Fraunces", Georgia, serif;
+  --font-body: "Manrope", Arial, sans-serif;
+
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: clamp(3rem, 7vw, 5.5rem);
+
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --space-7: 7rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --shadow-soft: 0 4px 20px rgba(43, 40, 35, .08);
+  --shadow-hover: 0 8px 28px rgba(43, 40, 35, .12);
+
+  --container: 1280px;
+  --header-height: 76px;
+}
