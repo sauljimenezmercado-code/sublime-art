@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2B2823">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SUBLIME ART">
+  <meta property="og:title" content="SUBLIME ART | Lo cotidiano, elevado.">
+  <meta property="og:description" content="Productos personalizados con una estética cuidada y un toque que habla de ti.">
+  <meta property="og:image" content="assets/img/generated-home-concept.png">
+  <meta name="description" content="SUBLIME ART — Productos personalizados. Conoce nuestro catálogo y solicita información por WhatsApp.">
+  <title>SUBLIME ART | Lo cotidiano, elevado.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="SUBLIME ART, ir al inicio">
+        <span class="brand-main">SUBLIME</span>
+        <span class="brand-accent">ART</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+              aria-label="Abrir menú" aria-controls="primary-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a class="button button-small button-outline" data-whatsapp="general" href="#">Pedir por WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Personalización con intención</p>
+          <h1>Lo cotidiano,<br><em>elevado.</em></h1>
+          <p class="hero-text">Productos personalizados con una estética cuidada y un toque que habla de ti.</p>
+          <div class="button-row">
+            <a class="button button-dark" href="#productos">Ver productos</a>
+            <a class="button button-primary" data-whatsapp="general" href="#">Pedir por WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Composición de productos personalizados de SUBLIME ART">
+          <img src="assets/img/hero-concept.jpg" alt="Playera, taza y termo personalizados sobre una mesa" width="1200" height="800" loading="eager">
+          <div class="hero-art-overlay">
+            <span>SUBLIME ART</span>
+            <p>Una idea. Un diseño. Algo hecho para ti.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="categorias">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Descubre posibilidades</p>
+          <h2>Explora nuestras categorías</h2>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="productos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Selección inicial</p>
+          <h2>Productos destacados</h2>
+          <p>Conoce algunas opciones y escríbenos para consultar disponibilidad y personalización.</p>
+        </div>
+        <div class="filter-row" id="filter-row" aria-label="Filtrar productos"></div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">La intención detrás de cada detalle</p>
+          <h2>Detalles que hacen la diferencia</h2>
+          <p>Transformamos productos cotidianos en piezas personalizadas que cuentan tu historia.</p>
+          <p class="muted">Esta sección se puede adaptar con la historia, valores y propuesta real del negocio.</p>
+        </div>
+        <div class="about-art">
+          <img src="assets/img/about-process.jpg" alt="Espacio de trabajo para personalización de productos" width="1200" height="700" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="galeria">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Ideas hechas realidad</p>
+          <h2>Creaciones que inspiran</h2>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="cta-section section" id="contacto">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow eyebrow-light">Hablemos de tu idea</p>
+          <h2>¿Tienes una idea?<br>Hagámosla realidad.</h2>
+          <p>Escríbenos y cuéntanos qué te gustaría personalizar.</p>
+        </div>
+        <a class="button button-primary" data-whatsapp="general" href="#">Pedir por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#inicio" aria-label="Volver al inicio">
+          <span class="brand-main">SUBLIME</span>
+          <span class="brand-accent">ART</span>
+        </a>
+        <p>Lo cotidiano, elevado.</p>
+      </div>
+      <div>
+        <h3>Navegación</h3>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galería</a>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p class="muted-footer">Canal de atención por WhatsApp</p>
+        <p class="pending" id="contact-status">Número de WhatsApp pendiente de confirmar</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="current-year"></span> SUBLIME ART. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" data-whatsapp="general" href="#" aria-label="Contactar por WhatsApp">WA</a>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
